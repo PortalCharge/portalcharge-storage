@@ -1,0 +1,14 @@
+{
+  "name": "ipfs-uploader",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kubo-rpc-client": "^5.0.2",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
